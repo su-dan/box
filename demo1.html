@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>使用浮动实现，百分比布局</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+		div  {
+			text-align: center;
+		}
+		.header {
+			height: 50px;
+			width: 100%;
+			background: red;
+		}
+		.content {
+			overflow: hidden;
+			position: relative;
+		}
+		.sidebar {
+			float: left;
+			width: 20%;
+			height: 300px;
+			background: green; 
+		}
+		.nav {
+			overflow: hidden;
+			width: 80%;
+			height: 100px;
+			background: #F6A428;
+		}
+		.ads {
+			float: left;
+			height: 200px;
+			width: 60%;
+			background: #DDDDDD;
+		}
+		.conve {
+			float: right;
+			width: 20%;
+			height: 400px;
+			background: yellow;
+		}
+		.main {
+			float: left;
+			width: 80%;
+			height: 200px;
+			color: #fff;
+			background: black;
+		}
+		.footer {
+			float: left;
+			clear: both;
+			height: 100px;
+			width: 100%;
+			background: #808080;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header"><p>header</p></div>
+	<div class="content">
+		<div class="sidebar"><p>sidebar</p></div>
+		<div class="nav"><p>nav</p></div>
+		<div class="conve"><p>conve</p></div>
+		<div class="ads"><p>ads</p></div>
+		<div class="main"><p>main</p></div>
+		
+	</div>	
+	<div class="footer"><p>footer</p></div>
+</body>
+</html>
+ 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>浮动布局，侧栏固定宽度</title>
+	<style>
+		html, body, p {
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			height: 50px;
+			width: 100%;
+			background: red;
+		}
+		.wraper {
+			overflow: hidden;
+		}
+		.sidebar {
+			float: left;
+			width: 200px;
+			height: 300px;
+			background: green; 
+		}
+		.nav {
+			overflow: hidden;
+			height: 100px;
+			background: #F6A428;
+		}
+		.inner-box .ads {
+			overflow: hidden;
+			height: 200px;
+			background: #DDDDDD;
+		}
+		.inner-box .conve {
+			float: right;
+			width: 200px;
+			height: 400px;
+			background: yellow;
+		}
+		.main {	
+			height: 200px;
+			color: #fff;
+			background: black;
+		}
+		.footer {
+			float: left;
+			clear: both;
+			height: 100px;
+			width: 100%;
+			background: #808080;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header"><p>header</p></div>
+		<div class="wraper">
+			<div class="sidebar"><p>sidebar</p></div>
+			<div class="nav"><p>nav</p></div>
+			<div class="inner-box">				
+				<div class="conve"><p>conve</p></div>
+				<div class="ads"><p>ads</p></div>
+				<div class="main"><p>main</p></div>
+			</div>
+		</div>
+		<div class="footer"><p>footer</p></div>
+	</div>
+</body>
+</html>
