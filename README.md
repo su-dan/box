@@ -7,5 +7,5 @@
 3. demo3.html也是侧边两个定像素的情况，使用浮动实现
 
 * 实现的布局大概就是这个样子
-* ![image](https://github.com/su-dan/box/master/box.png)
+* ![image](https://github.com/su-dan/box/blob/master/box.png)
 
